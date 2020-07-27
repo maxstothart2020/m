@@ -9,7 +9,6 @@ loginButton.addEventListener("click", (e) => {
 
     if (username === "user" && password === "web_dev") {
         window.location.href = 'https://google.com';
-        location.reload();
     } else {
         loginErrorMsg.style.opacity = 1;
     }
