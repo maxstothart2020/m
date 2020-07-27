@@ -7,7 +7,7 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    if (username === "Max" && password === "memoryallwaysprospers") {
+    if (username === "Max" && password === "memory allways prospers") {
         window.location.href = 'https://google.com';
     } else {
         loginErrorMsg.style.opacity = 1;
