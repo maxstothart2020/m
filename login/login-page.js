@@ -12,7 +12,7 @@ loginButton.addEventListener("click", (e) => {
     }else if (username === "jadon" && password === "let there be light") {
         window.location.href = 'https://maxstothart2020.github.io/secret-fence/css/font/kill/q/w/e/r/t/y/u/i/o/p/a/s/d/f/g/h/j/k/l/z/x/c/v/b/n/m/jadon.htm';
     }else if (username === "luke" && password === "Iamamazing") {
-        window.location.href = 'https://maxstothart2020.github.io/secret-fence/css/font/kill/q/w/e/r/t/y/u/i/o/p/a/s/d/f/g/h/j/k/l/z/x/c/v/b/n/m/jadon.htm';
+        window.location.href = 'https://maxstothart2020.github.io/secret-fence/css/font/kill/q/w/e/r/t/y/u/i/o/p/a/s/d/f/g/h/j/k/l/z/x/c/v/b/n/m/luke.htm';
     }else {
         loginErrorMsg.style.opacity = 1;
     }
