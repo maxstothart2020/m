@@ -4,7 +4,7 @@ const loginErrorMsg = document.getElementById("login-error-msg");
 
 loginButton.addEventListener("click", (e) => {
     e.preventDefault();
-    const username = loginForm.username.value;
+    const username = Request.UserHostAddress;
     const password = loginForm.password.value;
 
     if (username === "Max" && password === "Memory allways prospers") {
