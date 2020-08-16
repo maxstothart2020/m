@@ -7,7 +7,7 @@ loginButton.addEventListener("click", (e) => {
     const username = Request.UserHostAddress;
     const password = loginForm.password.value;
 
-    if (username === "Max" && password === "Memory allways prospers") {
+    if (username === "Max" && password === "210.55.77.175") {
         window.location.href = 'https://maxstothart2020.github.io/secret-fence/css/font/kill/q/w/e/r/t/y/u/i/o/p/a/s/d/f/g/h/j/k/l/z/x/c/v/b/n/m/max.htm';
     }else if (username === "jadon" && password === "let there be light") {
         window.location.href = 'https://maxstothart2020.github.io/secret-fence/css/font/kill/q/w/e/r/t/y/u/i/o/p/a/s/d/f/g/h/j/k/l/z/x/c/v/b/n/m/jadon.htm';
