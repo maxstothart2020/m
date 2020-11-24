@@ -1,4 +1,4 @@
 # covert login
-jadon             iamamazing
+jadon             Iamamazing
 luke              wheelie
 Max               who knows? :)
