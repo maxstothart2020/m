@@ -1,4 +1,4 @@
 # covert login
-jadon             Iamamazing
-luke              wheelie
+Jadon             Iamamazing
+Luke              wheelie
 Max               who knows? :)
