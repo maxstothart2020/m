@@ -1,10 +1,34 @@
-<DOCTYPE! html>
-  <html>
-    <head>
-      <title>Welcome</title>
-    </head>
-    <body>
-      <button onclick="document.location='https://maxstothart2020.github.io/m/login/login-page.html'">Login</button>
-      <h1>Welcome</h1>
-    </body>
-  </html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+</head>
+<body>
+  <button onclick="login()">Login</button>
+  <h1 id="demo"></h1>
+  <script>
+    function login() {
+      var txt;
+      var uname = prompt("Please enter your username:");
+      var pwd = prompt("please enter your password:")
+      if (uname == null || uname == "") {
+        txt = "User cancelled the prompt.";}
+      else if (uname == "Max" && pwd == "Memory allways prospers") {
+        txt = "Welcome " + uname;
+        window.location.href = 'https://maxstothart2020.github.io/secret-fence/css/font/kill/q/w/e/r/t/y/u/i/o/p/a/s/d/f/g/h/j/k/l/z/x/c/v/b/n/m/max.htm';}
+      
+      else if (uname == "jadon" && pwd == "Iamamazing") {
+        txt = "Welcome " + uname;
+        window.location.href = 'https://maxstothart2020.github.io/secret-fence/css/font/kill/q/w/e/r/t/y/u/i/o/p/a/s/d/f/g/h/j/k/l/z/x/c/v/b/n/m/jadon.htm';}
+     
+      else if (uname == "luke" && pwd == "wheelie") {
+        txt = "Welcome " + uname;
+        window.location.href = 'https://maxstothart2020.github.io/secret-fence/css/font/kill/q/w/e/r/t/y/u/i/o/p/a/s/d/f/g/h/j/k/l/z/x/c/v/b/n/m/luke.htm';}
+      else
+        txt = "Sorry " + uname + " It Appears You Have The Wrong Username Or Password"
+      document.getElementById("demo").innerHTML = txt;}
+    
+</script>
+
+</body>
+</html>
